@@ -8,7 +8,9 @@
 /*
  * Your dashboard ViewModel code goes here
  */
-define(['knockout', 'appController', 'ojs/ojmodule-element-utils', 'accUtils'],
+
+define(['knockout', 'appController', 'ojs/ojmodule-element-utils', 'accUtils', 
+"ojs/ojinputtext", "ojs/ojcheckboxset", "ojs/ojlabelvalue"],
  function(ko, app, moduleUtils, accUtils) {
 
     function DashboardViewModel() {
